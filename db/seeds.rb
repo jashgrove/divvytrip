@@ -7,3 +7,5 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Trip.create({name: "Sample Trip", location: "Brazil", description: "Omg tripppyyyy", start_date: Date.today, end_date: Date.today + 7.days})

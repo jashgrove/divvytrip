@@ -1,1 +1,8 @@
-<p>HELLo</p>
+
+<div id="banner">
+  <h1><%= @trips.first.name %></h1>
+  <p><%= @trips.first.start_date.strftime('%B %d %y') %><p>
+  <p><%= @trips.first.end_date.strftime('%B %d %y')%><p>
+</div>
+
+<%= link_to "Create new trip", create_trip_path %>
